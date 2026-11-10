@@ -96,3 +96,9 @@ To eliminate the systemic vulnerabilities exploited during this engagement, impl
 
 4. **Endpoint Defense & LSASS Isolation:**
    * **Enable LSA Protection & Credential Guard:** Configure `RunAsPPL` (Protected Process Light) via registry/GPO to isolate LSASS memory space and block memory scraping tools (Mimikatz, `comsvcs.dll`).
+
+---
+
+## Author
+
+Built by **Sodik Tursunboev**. The case study is at [sodik.eu/projects/ad-lab](https://sodik.eu/projects/ad-lab/), and the full walkthrough of the attack chain and its telemetry is in [the write-up](https://sodik.eu/writing/full-kill-chain-from-an-llmnr-broadcast-to-domain-admin-in-my-own-active-directory-lab/).
